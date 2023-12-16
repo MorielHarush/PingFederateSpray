@@ -22,12 +22,12 @@ PingFederateSpray is particularly useful in penetration testing and security aud
 PingIDValidArgParser.py [-h] --url URL --users USERS --output OUTPUT --incognito --headless
 
 options:
-  -h, --help       show this help message and exit
-  --url URL        URL to check the users
-  --users USERS    Path to the input user file
-  --output OUTPUT  Path to the output valid user file
-  --incognito      Enable incognito mode for the browser
-  --headless       Enable headless mode for the browser
+*  -h, --help       show this help message and exit
+*  --url URL        URL
+*  --users USERS    Path to the input user file
+*  --output OUTPUT  Path to the output valid user file
+*  --incognito      Enable incognito mode for the browser
+*  --headless       Enable headless mode for the browser
 
 # PoC 
 * PingFederateEnum.py success enumeration will look like : 
