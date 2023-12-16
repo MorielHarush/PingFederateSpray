@@ -47,7 +47,11 @@ options:
 * PingFederateSpray.py bad spray try will look like:
 ![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/72c93896-dfcb-466f-8992-a5594bbd1984)
 
+# Chromium Selenium Driver
+if needed , download selenium driver from: 
+https://chromedriver.chromium.org/downloads
 
 # Clean CMD Ouput
 PingFederateEnum.py will create a txt file with the valid usernames. 
 But anyway if the selenium chrome driver "DevTools" print line is annoying , you can use FireFox driver it wont print that horrible line.
+
