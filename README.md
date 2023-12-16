@@ -17,3 +17,7 @@ PingFederateSpray is particularly useful in penetration testing and security aud
 * Assessing the strength of user credentials in the target system.
 * Identifying potential security gaps related to user authentication.
 * Complementing broader security assessments with focused testing on authentication mechanisms.
+
+# PoC 
+* PingFederateEnum.py success enumeration will look like : 
+![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/cb592823-3329-44ad-8e77-15ec24de04b0)
