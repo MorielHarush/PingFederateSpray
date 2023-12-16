@@ -1,8 +1,8 @@
 # PingFederateSpray
 PingFederateSpray is a robust and efficient tool designed for security professionals and penetration testers. It leverages the power of Selenium to perform automated username enumeration and password spraying attacks against PingFederate authentication systems. This tool aims to assist in identifying weak credentials and potential vulnerabilities within enterprise environments that rely on PingFederate for identity management and access control.
 This repo includes 2 scripts. 
-* PingFederateEnum.py - This script helps you to enumerate users.
-* PingFederateSpray.py - This script will spray passwords on the valid users you found with the "PingFederateEnum.py" script.
+* PingFederateEnum.py - User Enumeration.
+* PingFederateSpray.py - Spray Passwords.
 
 # Key Features
 * Automated User Enumeration: Efficiently determines valid usernames by interacting with the PingFederate authentication page.
