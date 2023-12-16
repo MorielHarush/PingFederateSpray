@@ -21,3 +21,7 @@ PingFederateSpray is particularly useful in penetration testing and security aud
 # PoC 
 * PingFederateEnum.py success enumeration will look like : 
 ![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/cb592823-3329-44ad-8e77-15ec24de04b0)
+
+# Clean CMD Ouput
+PingFederateEnum.py will create a txt file with the valid usernames. 
+But anyway if the selenium chrome driver "DevTools" print line is annoying , you can use FireFox driver it wont print that horrible line.
