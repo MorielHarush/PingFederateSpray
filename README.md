@@ -6,3 +6,9 @@ PingFederateSpray is a robust and efficient tool designed for security professio
 * Headless Browser Support: Runs in headless mode for seamless operation in background and automated environments.
 * Incognito Mode Option: Ensures cleaner sessions with less traceability, enhancing the tool's discreetness during testing.
 * Customizable Workflow: Supports various command-line arguments for a personalized and flexible usage experience.
+#Usage Scenarios
+PingFederateSpray is particularly useful in penetration testing and security auditing scenarios where organizations utilize PingFederate. It helps in:
+* Educational Purposes
+* Assessing the strength of user credentials in the target system.
+* Identifying potential security gaps related to user authentication.
+* Complementing broader security assessments with focused testing on authentication mechanisms.
