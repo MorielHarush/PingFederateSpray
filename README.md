@@ -32,13 +32,13 @@ options:
 PingFederateSpray.py [-h] --url URL --output OUTPUT --password PASSWORD --users USERS [--incognito] [--headless]
 
 options:
-  -h, --help           show this help message and exit
-  --url URL            URL
-  --output OUTPUT      Path to the output file for valid sprayed users
-  --password PASSWORD  Password to use for spraying
-  --users USERS        Path to the input user file
-  --incognito          Enable incognito mode for the browser
-  --headless           Enable headless mode for the browser
+*  -h, --help           show this help message and exit
+*  --url URL            URL
+*  --output OUTPUT      Path to the output file for valid sprayed users
+*  --password PASSWORD  Password to use for spraying
+*  --users USERS        Path to the input user file
+*  --incognito          Enable incognito mode for the browser
+*  --headless           Enable headless mode for the browser
 
 # PoC 
 * PingFederateEnum.py success enumeration will look like : 
