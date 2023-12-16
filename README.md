@@ -18,6 +18,17 @@ PingFederateSpray is particularly useful in penetration testing and security aud
 * Identifying potential security gaps related to user authentication.
 * Complementing broader security assessments with focused testing on authentication mechanisms.
 
+# Usage
+PingIDValidArgParser.py [-h] --url URL --users USERS --output OUTPUT --incognito --headless
+
+options:
+  -h, --help       show this help message and exit
+  --url URL        URL to check the users
+  --users USERS    Path to the input user file
+  --output OUTPUT  Path to the output valid user file
+  --incognito      Enable incognito mode for the browser
+  --headless       Enable headless mode for the browser
+
 # PoC 
 * PingFederateEnum.py success enumeration will look like : 
 ![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/cb592823-3329-44ad-8e77-15ec24de04b0)
