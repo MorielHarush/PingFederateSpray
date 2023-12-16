@@ -19,7 +19,7 @@ PingFederateSpray is particularly useful in penetration testing and security aud
 * Complementing broader security assessments with focused testing on authentication mechanisms.
 
 # Usage
-PingIDValidArgParser.py [-h] --url URL --users USERS --output OUTPUT --incognito --headless
+PingFederateEnum.py [-h] --url URL --users USERS --output OUTPUT --incognito --headless
 
 options:
 *  -h, --help       show this help message and exit
@@ -29,9 +29,24 @@ options:
 *  --incognito      Enable incognito mode for the browser
 *  --headless       Enable headless mode for the browser
 
+PingFederateSpray.py [-h] --url URL --output OUTPUT --password PASSWORD --users USERS [--incognito] [--headless]
+
+options:
+  -h, --help           show this help message and exit
+  --url URL            URL
+  --output OUTPUT      Path to the output file for valid sprayed users
+  --password PASSWORD  Password to use for spraying
+  --users USERS        Path to the input user file
+  --incognito          Enable incognito mode for the browser
+  --headless           Enable headless mode for the browser
+
 # PoC 
 * PingFederateEnum.py success enumeration will look like : 
 ![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/cb592823-3329-44ad-8e77-15ec24de04b0)
+
+* PingFederateSpray.py bad spray try will look like:
+![image](https://github.com/MorielHarush/PingFederateSpray/assets/93482738/72c93896-dfcb-466f-8992-a5594bbd1984)
+
 
 # Clean CMD Ouput
 PingFederateEnum.py will create a txt file with the valid usernames. 
