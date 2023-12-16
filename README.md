@@ -1,1 +1,2 @@
 # PingFederateSpray
+PingFederateSpray is a robust and efficient tool designed for security professionals and penetration testers. It leverages the power of Selenium to perform automated username enumeration and password spraying attacks against PingFederate authentication systems. This tool aims to assist in identifying weak credentials and potential vulnerabilities within enterprise environments that rely on PingFederate for identity management and access control.
